@@ -1,0 +1,175 @@
+body, html {
+  margin: 0;
+  padding: 10px;
+  overflow-x: hidden;
+
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+#header_content {
+  -webkit-display: flex;
+  -moz-display: flex;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.container {
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+}
+/************ FIRST ROW / HEADER ***************/
+
+.header_info {
+  color: #303030;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: solid lightgrey .003px;
+  border-top: solid lightgrey .003px;
+  /*background-color: #44C4A1;*/
+}
+
+.head_name {
+  font-family: 'Fredericka the Great', cursive;
+  order: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 2.8em;
+  color: #303030;
+
+
+}
+
+.contact:hover {
+  opacity: 0.7;
+}
+
+.contact {
+  width: 50px;
+  height: 50px;
+}
+
+.skill {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.head_shot {
+  order: 1;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.res_s {
+  height: 150px;
+  width: 150px;
+  /*border: solid black .5px;*/
+}
+
+.h_s {
+  float: right;
+  height: 150px;
+  width: 150px;
+}
+
+.res_svg {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.full_stack {
+  /*border: solid black 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px black;
+  background-color: #ABABAB*/
+}
+
+/************* SECOND ROW *****************/
+.body_container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1, img {
+  /*display: inline-block;*/
+}
+
+.tech {
+  border-top: solid lightgrey .003px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+}
+
+.tech_header {
+  /*border: solid black 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px black;
+  background-color: #ABABAB;*/
+}
+
+/*********** Front End ***************/
+.front_end {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+.fn_res {
+  margin-top: 20px;
+}
+/********SERVER SIDE**********/
+.server_side {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+.server_v {
+  margin-top: 20px;
+  height: 150px;
+  width: 150px;
+}
+/**********BACKEND*********/
+.back_end {
+  width: 100%;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/**********PROJECTS**********/
+.projects {
+  width: 100%;
+  border-top: solid lightgrey .003px;
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-family: 'Open Sans', sans-serif;
+  /*border: solid black 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px black;
+  background-color: #ABABAB;*/
+}
+
+.pro_dock {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#lang {
+  color: black;
+}

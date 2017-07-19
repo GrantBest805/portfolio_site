@@ -1,0 +1,38 @@
+ .title, .head_shot, .res_svg {
+   order: 10;
+ }
+@media screen and (min-width: 700px) {
+
+  .tech {
+    border: none;
+  }
+
+  .head_shot {
+    order: -3;
+    margin-top: 0;
+    padding-right: 35px;
+    width: 33%;
+  }
+
+  .skill {
+    order: -2;
+    width: 33%;
+    font-size: .9em;
+  }
+
+  .res_svg {
+    order: -1;
+    padding-left: 35px;
+    margin-top: 0;
+    width: 33%;
+  }
+
+  .contact, .name {
+    display: inline-block;
+  }
+
+  .contact {
+    margin-left:20px;
+  }
+
+}
