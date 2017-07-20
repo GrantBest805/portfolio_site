@@ -1,7 +1,18 @@
  .title, .head_shot, .res_svg {
    order: 10;
  }
-@media screen and (min-width: 700px) {
+
+ /*****  640px ******/
+@media screen and (min-width: 640px) {
+
+  .main_content {
+    display: flex;
+  }
+
+  #header_content {
+    padding-top: 20px;
+    background-color: #F5F5F5;
+  }
 
   .tech {
     border: none;
@@ -14,10 +25,15 @@
     width: 33%;
   }
 
+  .name {
+    margin-bottom: 0;
+  }
+
   .skill {
     order: -2;
     width: 33%;
     font-size: .9em;
+    padding-top: 0;
   }
 
   .res_svg {
@@ -35,4 +51,23 @@
     margin-left:20px;
   }
 
+ /*******Body Content*******/
+
+ .body_container {
+   width: 50%;
+   margin: 0;
+ }
+
+ .main_projects {
+   width: 50%;
+   margin: 0;
+ }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
