@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .container {
   /*display: flex;*/
 }
@@ -42,6 +46,7 @@ header, nav, footer, section, article, div {
 
 .card:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  opacity: 0.7;
 }
 
 /*.move {
@@ -55,10 +60,12 @@ header, nav, footer, section, article, div {
   color: white;
   font-family: 'Open Sans', sans-serif;
   background-color: #202D34;
+
 }
 
 .head_name {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Fredericka the Great', cursive;*/
   order: 1;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -176,12 +183,11 @@ h1, img {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #E5E8E8;
+  background-color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .projects_title {
-  /*border-top: solid lightgrey .003px;*/
-  /*margin-top: 20px;*/
   font-size: 1.4em;
   font-family: 'Open Sans', sans-serif;
 
@@ -204,4 +210,23 @@ h1, img {
   width: 200px;
   height: 250px;
   border: solid black .5px;
+}
+.project_img {
+  height: 140px;
+  width: 198px;
+   border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+
+.projects_inner {
+
+}
+
+.tech_inner {
+
+}
+
+.project_p {
+  margin-top: 5px;
+  font-size: .80em;
 }
