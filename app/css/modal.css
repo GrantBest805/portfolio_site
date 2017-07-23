@@ -36,10 +36,25 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
-    
+
 }
 
 .topic_img {
   height: inherit;
   width: inherit;
+}
+
+.dockClose {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.dockClose:hover,
+.dockClose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+
 }

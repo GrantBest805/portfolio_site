@@ -8,24 +8,28 @@
 
   <!-- build:js js/main.min.js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- <script type="text/javascript" src="js/bootstrap.min.js" ></script> -->
-  <script src="js/jquery.js"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
   <!-- endbuild -->
 
   <!-- build:css css/style.min.css -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.3.0/css/zocial.css" />
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="css/imagehover.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- endbuild -->
 
 </head>
 <body>
+  <div class="outer">
   <div class="container">
     <header id="header_content">
       <div class="box header_info">
@@ -37,7 +41,7 @@
       </div>
       <div class="skill">
         <h2 class="full_stack">-Full Stack Developer-</h2>
-        <p class="quote">"I have taken my passion of Building and Designing Home's, to building and desinging <u>fully responsive</u> web sites and applications!"</p>
+        <p class="quote"><em id="welcome">"Welcome! </em>  I am a Entrepreneurial minded developer with the ability to create fully responsive Web Sites and Applications, from Design to Database."</p>
       </div>
       <div class="res_svg">
         <img class="res_s" src="images/technology.svg" alt="">
@@ -55,9 +59,6 @@
 
           <div class="box move front_end">
             <h3>{ Front-End Development }</h3>
-            <!-- <div class="fn_pic">
-              <img class="res_s fn_res" src="images/001-responsive.svg" alt="">
-            </div> -->
             <figure class="imghvr-zoom-out" style="background-color: #F5F5F5;">
               <img class="res_s fn_res"src="images/001-responsive.svg">
               <figcaption style="background-color: #F5F5F5;">
@@ -82,47 +83,68 @@
           </div>
       </section>
       <section class="main_projects">
-        <div class="projects_inner">
           <div class="box projects_title">
             <h2 class="project_header">-Projects-</h2>
           </div>
-          <div id="openDockit" class="box move dockit">
+          <div id="openDockit" class="box dockit">
             <div class="card dockit_inner">
-              <img class="project_img" src="images/dock_it.jpg" alt="">
+              <img class="project_img" src="images/beach_dock.jpg" alt="">
               <h4>< Dock_It ></h4>
-              <p></p>
+              <p class="project_p">Dockit is a scheduling app for small businesses. Built with Rudy on Rails</p>
             </div>
           </div>
-          <div class="box move rails_events">
+          <div id="openRailsEvents" class="box rails_events">
             <div class="card dockit_inner">
-              <img class="project_img" src="" alt="">
+              <img class="project_img" src="images/city.jpg" alt="">
             </div>
           </div>
-          <div id="openTopic" class="box move mean_topics">
+          <div id="openTopic" class="box mean_topics">
             <div class="card dockit_inner">
               <img class="project_img" src="images/modern_bike.jpg" alt="topics site screen shot">
               <h4>< MEAN topics ></h4>
               <p class="project_p">Simple Blog application, build with Node.js, Angular, Express and MongoDB</p>
             </div>
           </div>
-        </div>
       </section>
-
-
     </section>
-    <footer>
 
+    <footer class="the_footer">
+      <div class="box foot_content">
+        <div class="foot_inner">
+          <a href="https://github.com/GrantBest805" class="zocial github">Github</a>
+          <a href="https://www.linkedin.com/in/grant-best" class="zocial linkedin">LinkedIn</a>
+        </div>
+      </div>
     </footer>
-    <!-- The Modal -->
+
+    <!-- start topicModal -->
     <div id="myModal" class="modal">
       <!-- Modal content -->
       <div class="modal-content">
         <span class="close">&times;</span>
         <img class="topic_img" src="images/mean_topics.png" alt="">
-        <p>MEAN Topics is a simple Blog application, built with Node.js, Angluar, Express and MongoDB.</p>
+        <p>MEAN Topics is a simple Blog application, built with Node.js, Angluar, Express and MongoDB. Users can create topics, Post on a topic and also Comment on Posts.</p><a href="https://github.com/GrantBest805/full_MEAN_topics-" class="zocial github">View Code</a>
       </div>
     </div>
+    <!-- end topicModal -->
+
+    <!-- start topicModal -->
+    <div id="dockitModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="dockClose">&times;</span>
+        <img class="topic_img" src="images/the_dockit.png" alt="">
+        <p>Dock_It is a working mockup of a scheduling app for small businesses. The Idea is to get rid of the clipboard hanging in the break room. Create a Group for your company, give your employees the group ID and thats it! Now the Group admin can create Positions and fill those positions with events.  (Built with Ruby on Rails) <em>Currently Working on full version, Integrating Full Calendar.</em></p>
+        <a href="https://github.com/GrantBest805/dock_it" class="zocial github">View Code</a>
+        <button>Link to app Coming soon!</button>
+      </div>
+    </div>
+    <!-- end topicModal -->
+
   </div>
-<script src="js/main.js"></script>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

@@ -29,10 +29,15 @@
     margin-bottom: 0;
   }
 
+  .full_stack {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+
   .skill {
     order: -2;
     width: 33%;
-    font-size: .9em;
+    font-size: 1em;
     padding-top: 0;
   }
 
@@ -61,13 +66,70 @@
  .main_projects {
    width: 50%;
    margin: 0;
+   border-top: 0;
  }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
+
+  .main_content {
+    display: block;
+  }
+
+  .move {
+    margin-top: 0;
+  }
+
+  .main_projects {
+    width: 100%;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+
+  }
+
+  .body_container {
+    width: 100%;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+/******** Technologies ***********/
+  .front_end  {
+    width: 33%;
+  }
+
+  .server_side {
+    width: 33%;
+  }
+
+  .back_end {
+    width: 33.3%;
+  }
+
+/************* Projects ***************/
+
+  .dockit {
+    width: 33%;
+  }
+
+  .rails_events {
+    width: 33%;
+  }
+
+  .mean_topics {
+    width: 33%;
+  }
+/************ Top Full Stack *****************/
+
+  .full_stack {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1020px) {
   .container {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
-}
+
+{

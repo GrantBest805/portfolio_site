@@ -1,7 +1,15 @@
 body, html {
   margin: 0;
   overflow-x: hidden;
+}
 
+.outer {
+  background-image: url('/images/city.jpg');
+  background-attachment:fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1, h2, h3, h4, h5 {
@@ -27,6 +35,9 @@ header, nav, footer, section, article, div {
   background-color: #BFC9CA;
 }
 
+.main_content {
+}
+
 .box {
   width: 100%;
   text-align: center;
@@ -35,7 +46,7 @@ header, nav, footer, section, article, div {
 
 .card {
   background: #fff;
-  border-radius: 4px;
+  border-radius: 2px;
   display: inline-block;
   height: 200px;
   margin: 1rem;
@@ -49,34 +60,32 @@ header, nav, footer, section, article, div {
   opacity: 0.7;
 }
 
-/*.move {
-  width: 200px;
-  height: 300px;
-}*/
 /************ FIRST ROW / HEADER ***************/
 
 .header_info {
   margin: 0;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  background-color: #202D34;
+  /*background-color: #202D34;*/
+  background-color: #405B65;
 
 }
 
 .head_name {
-  font-family: 'Open Sans', sans-serif;
-  /*font-family: 'Fredericka the Great', cursive;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
   order: 1;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   margin-bottom: 10px;
   display: block;
   font-size: 2em;
-  /*color: #303030;*/
   color: white
 }
 
 .name {
-  margin-bottom: 20px;
+  margin: 0;
+  font-family: 'Megrim', cursive;
+
 }
 
 .contact:hover {
@@ -86,11 +95,13 @@ header, nav, footer, section, article, div {
 .contact {
   width: 50px;
   height: 50px;
+  margin-bottom: 15px;
 }
 
 .skill {
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
   font-size: 1.4em;
   text-align: center;
   padding-top: 30px;
@@ -137,21 +148,19 @@ header, nav, footer, section, article, div {
   padding-bottom: 20px;
 }
 
-h1, img {
-  /*display: inline-block;*/
-}
-
 .tech {
   /*border-top: solid lightgrey .003px;*/
   margin-bottom: 20px;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
   font-size: 1.4em;
 }
 
 /*********** Front End ***************/
 .front_end {
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
   width: 100%;
 }
 
@@ -160,7 +169,8 @@ h1, img {
 }
 /********SERVER SIDE**********/
 .server_side {
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
   width: 100%;
 }
 
@@ -172,7 +182,8 @@ h1, img {
 /**********BACKEND*********/
 .back_end {
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
 }
 
 /**********PROJECTS**********/
@@ -184,18 +195,22 @@ h1, img {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #F5F5F5;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
+  border-top: solid grey 1px;
 }
 
 .projects_title {
   font-size: 1.4em;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
 
 }
 
 .pro_dock {
   margin-top: 20px;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
 }
 
 #lang {
@@ -209,24 +224,41 @@ h1, img {
   margin: 0 auto;
   width: 200px;
   height: 250px;
-  border: solid black .5px;
 }
+
 .project_img {
   height: 140px;
-  width: 198px;
-   border-top-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-
-.projects_inner {
-
-}
-
-.tech_inner {
-
+  width: inherit;
+   border-top-left-radius: 2px;
+   border-top-left-radius: 2px;
 }
 
 .project_p {
   margin-top: 5px;
-  font-size: .80em;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.mean_topics {
+  padding-bottom: 40px;
+}
+
+/*********** Footer ***************/
+.the_footer {
+  -webkit-display: flex;
+  -moz-display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F5F5F5;
+}
+
+.foot_content {
+  padding-bottom: 15px;
+}
+
+.foot_inner {
+  padding: 20px;
+  border-top: solid lightgrey 1px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
