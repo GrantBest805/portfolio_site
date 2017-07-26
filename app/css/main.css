@@ -155,9 +155,7 @@ header, nav, footer, section, article, div {
   font-size: 1.4em;
 }
 
-.inner_style, .lang {
-  color: black;
-}
+
 /*********** Front End ***************/
 .front_end {
   /*font-family: 'Open Sans', sans-serif;*/
@@ -272,4 +270,5 @@ header, nav, footer, section, article, div {
 
 .about {
   font-family: 'Dosis', sans-serif;
+  font-size: 1.6em;
 }
