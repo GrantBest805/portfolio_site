@@ -44,6 +44,7 @@
   width: inherit;
 }
 
+/******* Dockit Modal *******/
 .dockClose {
     color: #aaaaaa;
     float: right;
@@ -56,5 +57,32 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
 
+/********** Lending Modal ************/
+.lendClose {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.lendClose:hover,
+.lendClose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.aboutClose {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.aboutClose:hover,
+.aboutClose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }

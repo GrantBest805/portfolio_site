@@ -68,7 +68,7 @@ gulp.task('fonts', () => {
   .pipe(gulp.dest('dist/fonts'))
 });
 
-// Watching for reload. Run (gulp watch) to start NODE server
+// Watching for reload. Run (gulp) to start NODE server
 gulp.task('watch',['browser-sync'], () => {
   gulp.watch(['app/*.html'], reload);
   gulp.watch(['app/**/*.css'], reload);
