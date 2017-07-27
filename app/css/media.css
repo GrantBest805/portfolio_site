@@ -11,7 +11,7 @@
 
   #header_content {
     padding-top: 20px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
   }
 
   .tech {
@@ -93,6 +93,7 @@
     -webkit-flex-direction: row;
     flex-direction: row;
   }
+
 /******** Technologies ***********/
   .front_end  {
     width: 33%;
