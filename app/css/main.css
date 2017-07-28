@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 p {
   margin: 0;
 }
@@ -73,7 +77,6 @@ header, nav, footer, section, article, div {
 .head_name {
   font-family: 'Dosis', sans-serif;
   order: 1;
-  /*margin-top: 10px;*/
   margin-bottom: 10px;
   display: block;
   font-size: 2em;
@@ -83,7 +86,6 @@ header, nav, footer, section, article, div {
 .name {
   margin: 0;
   font-family: 'Megrim', cursive;
-
 }
 
 .contact:hover {
@@ -114,15 +116,11 @@ header, nav, footer, section, article, div {
   padding-bottom: 10px;
 }
 
-.res_s {
-  height: 150px;
-  width: 150px;
-}
 
 .h_s {
   float: right;
   height: 150px;
-  width: 150px;
+  max-width: 100%;
 }
 
 .res_svg {
@@ -157,9 +155,15 @@ header, nav, footer, section, article, div {
   width: 100%;
 }
 
+.res_s {
+  height: 150px;
+  max-width: 100%;
+}
+
 .fn_res {
   margin-top: 20px;
 }
+
 /********SERVER SIDE**********/
 .server_side {
   width: 100%;
@@ -168,7 +172,7 @@ header, nav, footer, section, article, div {
 .server_v {
   margin-top: 20px;
   height: 150px;
-  width: 150px;
+  max-width: 100%;
 }
 
 /**********BACKEND*********/
